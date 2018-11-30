@@ -1,0 +1,3609 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2018.11.29 10:47:16 =~=~=~=~=~=~=~=~=~=~=~=
+
+rmca/productoffering/a91a2315-7ed3-4677-a5eb-f89b97f3052a
+{
+  "header" : {
+    "id" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+    "externalId" : null,
+    "relationsFrom" : [ ],
+    "referencesFrom" : null,
+    "creationDate" : {
+      "string" : "2018-11-15T10:33:33Z"
+    }
+  },
+  "offeringTypes" : [ ]
+}
+rmca/productoffering/a91a2315-7ed3-4677-a5eb-f89b97f3052a/shared/1542278013287
+{
+  "header" : {
+    "commercialEndDate" : null,
+    "externalId" : null,
+    "name" : {
+      "string" : "Second Chance"
+    },
+    "humanReadableId" : null,
+    "lastModifiedDate" : {
+      "string" : "2018-11-15T10:33:33Z"
+    }
+  },
+  "offeringTypes" : [ "BASE" ]
+}
+rmca/productoffering/a91a2315-7ed3-4677-a5eb-f89b97f3052a/version/1542278013465
+{
+  "header" : {
+    "description" : {
+      "string" : ""
+    },
+    "versionIdentifier" : "1542278013465",
+    "state" : "ACTIVE",
+    "validFor" : {
+      "from" : {
+        "string" : "Beginning of time"
+      },
+      "to" : {
+        "string" : "End of time"
+      }
+    },
+    "characteristics" : [ {
+      "description" : {
+        "string" : "A ProductOfferings priority"
+      },
+      "name" : {
+        "string" : "NumericPriority"
+      },
+      "id" : "ff038d6de33924b76b43cf0270df2b28",
+      "derivationFormula" : null,
+      "extensible" : {
+        "boolean" : false
+      },
+      "maxCardinality" : {
+        "int" : 1
+      },
+      "minCardinality" : {
+        "int" : 1
+      },
+      "unique" : null,
+      "valueType" : null,
+      "derivedValueType" : null,
+      "purpose" : null,
+      "valueRegulator" : {
+        "string" : "NO_PERSONALIZATION"
+      },
+      "canBeOverridden" : {
+        "boolean" : true
+      },
+      "possibleValues" : [ {
+        "name" : {
+          "string" : "Possible value range"
+        },
+        "description" : null,
+        "id" : "idCsvPossibleValueRange",
+        "default" : {
+          "boolean" : true
+        },
+        "rangeInterval" : null,
+        "unitOfMeasure" : null,
+        "value" : {
+          "string" : "200000"
+        },
+        "valueFrom" : null,
+        "valueTo" : null,
+        "valueType" : null,
+        "valueLinks" : [ {
+          "id" : "b0e8672bc3768495e84010de03ee40f6",
+          "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+          "sourceType" : "ProductOffering",
+          "sourceEntityPath" : [ {
+            "entityId" : "ff038d6de33924b76b43cf0270df2b28",
+            "entityType" : "Characteristic"
+          }, {
+            "entityId" : "idCsvPossibleValueRange",
+            "entityType" : "CharacteristicSpecificationValue"
+          } ],
+          "targetId" : "18afe922-718f-4b6b-8eed-8544b71430b5",
+          "targetType" : "ProductSpecification",
+          "relationType" : "USE",
+          "targetEntityPath" : [ {
+            "entityId" : "ff038d6de33924b76b43cf0270df2b28",
+            "entityType" : "Characteristic"
+          }, {
+            "entityId" : "idCsvPossibleValueRange",
+            "entityType" : "CharacteristicSpecificationValue"
+          } ]
+        } ],
+        "discrete" : null,
+        "humanReadableId" : null
+      } ],
+      "links" : [ {
+        "id" : "ef114f619ae6b43d98b966672e239d27",
+        "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+        "sourceType" : "ProductOffering",
+        "sourceEntityPath" : [ {
+          "entityId" : "ff038d6de33924b76b43cf0270df2b28",
+          "entityType" : "Characteristic"
+        } ],
+        "targetId" : "18afe922-718f-4b6b-8eed-8544b71430b5",
+        "targetType" : "ProductSpecification",
+        "relationType" : "USE",
+        "targetEntityPath" : [ {
+          "entityId" : "ff038d6de33924b76b43cf0270df2b28",
+          "entityType" : "Characteristic"
+        } ]
+      } ],
+      "characteristics" : [ ],
+      "annotations" : { },
+      "annotationList" : {
+        "array" : [ ]
+      },
+      "measure" : null,
+      "limitSpecValueRange" : null,
+      "humanReadableId" : null,
+      "sensitiveInfo" : null,
+      "isPersonalizedValueTransferable" : null
+    }, {
+      "description" : {
+        "string" : "Describes if an offering is allowed to solely be part of another offering."
+      },
+      "name" : {
+        "string" : "BundleOnly"
+      },
+      "id" : "a806cb3d0bc134e49bbdeddf092aa236",
+      "derivationFormula" : null,
+      "extensible" : {
+        "boolean" : false
+      },
+      "maxCardinality" : {
+        "int" : 1
+      },
+      "minCardinality" : {
+        "int" : 1
+      },
+      "unique" : null,
+      "valueType" : null,
+      "derivedValueType" : null,
+      "purpose" : null,
+      "valueRegulator" : {
+        "string" : "NO_PERSONALIZATION"
+      },
+      "canBeOverridden" : {
+        "boolean" : true
+      },
+      "possibleValues" : [ {
+        "name" : {
+          "string" : "notBundleOnly"
+        },
+        "description" : null,
+        "id" : "notBundleOnly",
+        "default" : {
+          "boolean" : true
+        },
+        "rangeInterval" : null,
+        "unitOfMeasure" : null,
+        "value" : null,
+        "valueFrom" : null,
+        "valueTo" : null,
+        "valueType" : null,
+        "valueLinks" : [ {
+          "id" : "c10c3070377654f3298a7594ee3a4c3a",
+          "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+          "sourceType" : "ProductOffering",
+          "sourceEntityPath" : [ {
+            "entityId" : "a806cb3d0bc134e49bbdeddf092aa236",
+            "entityType" : "Characteristic"
+          }, {
+            "entityId" : "notBundleOnly",
+            "entityType" : "CharacteristicSpecificationValue"
+          } ],
+          "targetId" : "18afe922-718f-4b6b-8eed-8544b71430b5",
+          "targetType" : "ProductSpecification",
+          "relationType" : "USE",
+          "targetEntityPath" : [ {
+            "entityId" : "a806cb3d0bc134e49bbdeddf092aa236",
+            "entityType" : "Characteristic"
+          }, {
+            "entityId" : "notBundleOnly",
+            "entityType" : "CharacteristicSpecificationValue"
+          } ]
+        } ],
+        "discrete" : null,
+        "humanReadableId" : null
+      } ],
+      "links" : [ {
+        "id" : "b246ce8d8959447fe9a4f265a4c15725",
+        "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+        "sourceType" : "ProductOffering",
+        "sourceEntityPath" : [ {
+          "entityId" : "a806cb3d0bc134e49bbdeddf092aa236",
+          "entityType" : "Characteristic"
+        } ],
+        "targetId" : "18afe922-718f-4b6b-8eed-8544b71430b5",
+        "targetType" : "ProductSpecification",
+        "relationType" : "USE",
+        "targetEntityPath" : [ {
+          "entityId" : "a806cb3d0bc134e49bbdeddf092aa236",
+          "entityType" : "Characteristic"
+        } ]
+      } ],
+      "characteristics" : [ ],
+      "annotations" : { },
+      "annotationList" : {
+        "array" : [ ]
+      },
+      "measure" : null,
+      "limitSpecValueRange" : null,
+      "humanReadableId" : null,
+      "sensitiveInfo" : null,
+      "isPersonalizedValueTransferable" : null
+    } ],
+    "relationsTo" : [ {
+      "id" : "f40d0098175fe4a4280dfe9bb2b175b7",
+      "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+      "sourceType" : "ProductOffering",
+      "sourceEntityPath" : [ ],
+      "targetId" : "18afe922-718f-4b6b-8eed-8544b71430b5",
+      "targetType" : "ProductSpecification",
+      "relationType" : "CONTAINS",
+      "targetEntityPath" : [ ]
+    } ],
+    "creationDate" : {
+      "string" : "2018-11-15T10:33:33Z"
+    },
+    "lastModifiedDate" : {
+      "string" : "2018-11-15T10:33:33Z"
+    },
+    "annotationList" : {
+      "array" : [ ]
+    }
+  },
+  "productOfferingPrices" : [ {
+    "plaId" : null,
+    "id" : {
+      "string" : "ecb14e65b6ec03a6a9630f2378b7d52a"
+    },
+    "name" : "second chance fee",
+    "paymentContext" : "GENERIC",
+    "productOfferingPriceSpecificationRelation" : {
+      "id" : "a2b9be9d8b8314c448a9fc4f8c55616c",
+      "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+      "sourceType" : "ProductOffering",
+      "sourceEntityPath" : [ {
+        "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+        "entityType" : "ProductOfferingPrice"
+      } ],
+      "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+      "targetType" : "ProductOfferingPriceSpecification",
+      "relationType" : "DESIGN",
+      "targetEntityPath" : [ ]
+    },
+    "atomicProductOfferingPrices" : {
+      "array" : [ {
+        "id" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+        "name" : {
+          "string" : "AtomicProductOfferingPrice-c0aaf0c7a092c4baaa45e4f4fb169b53"
+        },
+        "atomicProductOfferingPriceSpecificationRelation" : {
+          "id" : "a370db6c2f25e4e5fa064b040f6bf540",
+          "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+          "sourceType" : "ProductOffering",
+          "sourceEntityPath" : [ {
+            "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+            "entityType" : "ProductOfferingPrice"
+          }, {
+            "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+            "entityType" : "AtomicProductOfferingPrice"
+          } ],
+          "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+          "targetType" : "ProductOfferingPriceSpecification",
+          "relationType" : "DESIGN",
+          "targetEntityPath" : [ {
+            "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+            "entityType" : "AtomicProductOfferingPriceSpecification"
+          } ]
+        },
+        "characteristics" : {
+          "array" : [ {
+            "description" : {
+              "string" : "It is used to group the dimension structure that shall be created on the (A)POP."
+            },
+            "name" : {
+              "string" : "Task"
+            },
+            "id" : "e5ef7a1d4b14d48049d690437fcfe15a",
+            "derivationFormula" : null,
+            "extensible" : {
+              "boolean" : false
+            },
+            "maxCardinality" : {
+              "int" : 2147483647
+            },
+            "minCardinality" : {
+              "int" : 1
+            },
+            "unique" : null,
+            "valueType" : null,
+            "derivedValueType" : null,
+            "purpose" : null,
+            "valueRegulator" : null,
+            "canBeOverridden" : null,
+            "possibleValues" : [ {
+              "name" : {
+                "string" : "Possible value range for Task"
+              },
+              "description" : null,
+              "id" : "eda937d33b9404f55bf9be53f1fe145a",
+              "default" : {
+                "boolean" : true
+              },
+              "rangeInterval" : null,
+              "unitOfMeasure" : null,
+              "value" : null,
+              "valueFrom" : null,
+              "valueTo" : null,
+              "valueType" : null,
+              "valueLinks" : [ {
+                "id" : "b0452bd67004246e48aebafc3c092ea1",
+                "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "sourceType" : "ProductOffering",
+                "sourceEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "eda937d33b9404f55bf9be53f1fe145a",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ],
+                "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                "targetType" : "ProductOfferingPriceSpecification",
+                "relationType" : "USE",
+                "targetEntityPath" : [ {
+                  "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                  "entityType" : "AtomicProductOfferingPriceSpecification"
+                }, {
+                  "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "eda937d33b9404f55bf9be53f1fe145a",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ]
+              }, {
+                "id" : "e2c2c34529615490eab088f0cd48bc88",
+                "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "sourceType" : "ProductOffering",
+                "sourceEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "eda937d33b9404f55bf9be53f1fe145a",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ],
+                "targetId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "targetType" : "ProductOffering",
+                "relationType" : "COMPOSITION",
+                "targetEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "f6d8e5064b3834963924c2eaaf18852a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "e379f3592809c4b20a7192e2403f9622",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ]
+              }, {
+                "id" : "f39dd1c58970448a78b1613140c017d4",
+                "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "sourceType" : "ProductOffering",
+                "sourceEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "eda937d33b9404f55bf9be53f1fe145a",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ],
+                "targetId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "targetType" : "ProductOffering",
+                "relationType" : "COMPOSITION",
+                "targetEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "b5874604dec6f4d6ab01034266bbc5b1",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "c4074c626245c49d9969c211eafbe9b7",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ]
+              } ],
+              "discrete" : {
+                "boolean" : true
+              },
+              "humanReadableId" : null
+            } ],
+            "links" : [ {
+              "id" : "af967b657d5a84ee5aa2025f2252245f",
+              "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+              "sourceType" : "ProductOffering",
+              "sourceEntityPath" : [ {
+                "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                "entityType" : "ProductOfferingPrice"
+              }, {
+                "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                "entityType" : "AtomicProductOfferingPrice"
+              }, {
+                "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                "entityType" : "Characteristic"
+              } ],
+              "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+              "targetType" : "ProductOfferingPriceSpecification",
+              "relationType" : "USE",
+              "targetEntityPath" : [ {
+                "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                "entityType" : "AtomicProductOfferingPriceSpecification"
+              }, {
+                "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                "entityType" : "Characteristic"
+              } ]
+            } ],
+            "characteristics" : [ {
+              "description" : {
+                "string" : "It is used to indicate in which order the (A)POP should be processed."
+              },
+              "name" : {
+                "string" : "Order"
+              },
+              "id" : "f6d8e5064b3834963924c2eaaf18852a",
+              "derivationFormula" : null,
+              "extensible" : {
+                "boolean" : false
+              },
+              "maxCardinality" : {
+                "int" : 1
+              },
+              "minCardinality" : {
+                "int" : 1
+              },
+              "unique" : null,
+              "valueType" : null,
+              "derivedValueType" : null,
+              "purpose" : null,
+              "valueRegulator" : {
+                "string" : "NO_PERSONALIZATION"
+              },
+              "canBeOverridden" : {
+                "boolean" : true
+              },
+              "possibleValues" : [ {
+                "name" : {
+                  "string" : "CharacteristicSpecificationValue-e379f3592809c4b20a7192e2403f9622"
+                },
+                "description" : null,
+                "id" : "e379f3592809c4b20a7192e2403f9622",
+                "default" : {
+                  "boolean" : false
+                },
+                "rangeInterval" : null,
+                "unitOfMeasure" : null,
+                "value" : {
+                  "string" : "1"
+                },
+                "valueFrom" : null,
+                "valueTo" : null,
+                "valueType" : null,
+                "valueLinks" : [ {
+                  "id" : "bfbab6dc45bc04114895b6c57c83a3e5",
+                  "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "sourceType" : "ProductOffering",
+                  "sourceEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "f6d8e5064b3834963924c2eaaf18852a",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "e379f3592809c4b20a7192e2403f9622",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ],
+                  "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                  "targetType" : "ProductOfferingPriceSpecification",
+                  "relationType" : "USE",
+                  "targetEntityPath" : [ {
+                    "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                    "entityType" : "AtomicProductOfferingPriceSpecification"
+                  }, {
+                    "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "f6d8e5064b3834963924c2eaaf18852a",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "orderValueRange",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ]
+                } ],
+                "discrete" : null,
+                "humanReadableId" : null
+              } ],
+              "links" : [ {
+                "id" : "b241acc404874431ca54f103c0459518",
+                "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "sourceType" : "ProductOffering",
+                "sourceEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "f6d8e5064b3834963924c2eaaf18852a",
+                  "entityType" : "Characteristic"
+                } ],
+                "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                "targetType" : "ProductOfferingPriceSpecification",
+                "relationType" : "USE",
+                "targetEntityPath" : [ {
+                  "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                  "entityType" : "AtomicProductOfferingPriceSpecification"
+                }, {
+                  "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "f6d8e5064b3834963924c2eaaf18852a",
+                  "entityType" : "Characteristic"
+                } ]
+              } ],
+              "characteristics" : [ ],
+              "annotations" : { },
+              "annotationList" : {
+                "array" : [ ]
+              },
+              "measure" : null,
+              "limitSpecValueRange" : null,
+              "humanReadableId" : null,
+              "sensitiveInfo" : null,
+              "isPersonalizedValueTransferable" : null
+            }, {
+              "description" : {
+                "string" : "It is used to indicate that value on the CharacteristicSpecificationValue is a reference."
+              },
+              "name" : {
+                "string" : "Reference"
+              },
+              "id" : "b5874604dec6f4d6ab01034266bbc5b1",
+              "derivationFormula" : null,
+              "extensible" : {
+                "boolean" : false
+              },
+              "maxCardinality" : {
+                "int" : 1
+              },
+              "minCardinality" : {
+                "int" : 0
+              },
+              "unique" : null,
+              "valueType" : null,
+              "derivedValueType" : null,
+              "purpose" : null,
+              "valueRegulator" : {
+                "string" : "NO_PERSONALIZATION"
+              },
+              "canBeOverridden" : {
+                "boolean" : true
+              },
+              "possibleValues" : [ {
+                "name" : {
+                  "string" : "5 GB or above"
+                },
+                "description" : null,
+                "id" : "c4074c626245c49d9969c211eafbe9b7",
+                "default" : {
+                  "boolean" : false
+                },
+                "rangeInterval" : null,
+                "unitOfMeasure" : null,
+                "value" : {
+                  "string" : "rmref://rmca/PO/a91a2315-7ed3-4677-a5eb-f89b97f3052a/POP/ecb14e65b6ec03a6a9630f2378b7d52a/Char/dd93f6953848741ed842d1ea24568060/Char/b45e78b0a455140ba9d50937c8c5cc2a/CSV/b1d7bd1c28ae74bfbb6ccad2d1a22217"
+                },
+                "valueFrom" : null,
+                "valueTo" : null,
+                "valueType" : null,
+                "valueLinks" : [ {
+                  "id" : "bf2a70907178e4df2929799186c28704",
+                  "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "sourceType" : "ProductOffering",
+                  "sourceEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "b5874604dec6f4d6ab01034266bbc5b1",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "c4074c626245c49d9969c211eafbe9b7",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ],
+                  "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                  "targetType" : "ProductOfferingPriceSpecification",
+                  "relationType" : "USE",
+                  "targetEntityPath" : [ {
+                    "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                    "entityType" : "AtomicProductOfferingPriceSpecification"
+                  }, {
+                    "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "b5874604dec6f4d6ab01034266bbc5b1",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "idCsvPossibleValueRange",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ]
+                } ],
+                "discrete" : null,
+                "humanReadableId" : null
+              } ],
+              "links" : [ {
+                "id" : "cdb776abc2b684bc8abb23f91730cfd2",
+                "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "sourceType" : "ProductOffering",
+                "sourceEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "b5874604dec6f4d6ab01034266bbc5b1",
+                  "entityType" : "Characteristic"
+                } ],
+                "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                "targetType" : "ProductOfferingPriceSpecification",
+                "relationType" : "USE",
+                "targetEntityPath" : [ {
+                  "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                  "entityType" : "AtomicProductOfferingPriceSpecification"
+                }, {
+                  "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "b5874604dec6f4d6ab01034266bbc5b1",
+                  "entityType" : "Characteristic"
+                } ]
+              } ],
+              "characteristics" : [ ],
+              "annotations" : { },
+              "annotationList" : {
+                "array" : [ ]
+              },
+              "measure" : null,
+              "limitSpecValueRange" : null,
+              "humanReadableId" : null,
+              "sensitiveInfo" : null,
+              "isPersonalizedValueTransferable" : null
+            } ],
+            "annotations" : { },
+            "annotationList" : {
+              "array" : [ ]
+            },
+            "measure" : null,
+            "limitSpecValueRange" : null,
+            "humanReadableId" : null,
+            "sensitiveInfo" : null,
+            "isPersonalizedValueTransferable" : null
+          }, {
+            "description" : {
+              "string" : "Is used to group the actions that shall be executed for every (A)POP."
+            },
+            "name" : {
+              "string" : "Actions"
+            },
+            "id" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+            "derivationFormula" : null,
+            "extensible" : {
+              "boolean" : false
+            },
+            "maxCardinality" : {
+              "int" : 1
+            },
+            "minCardinality" : {
+              "int" : 1
+            },
+            "unique" : null,
+            "valueType" : null,
+            "derivedValueType" : null,
+            "purpose" : null,
+            "valueRegulator" : null,
+            "canBeOverridden" : null,
+            "possibleValues" : [ {
+              "name" : {
+                "string" : "15 GB a $10 fee"
+              },
+              "description" : null,
+              "id" : "bdc655e64c09a494482cd098310e2937",
+              "default" : {
+                "boolean" : true
+              },
+              "rangeInterval" : null,
+              "unitOfMeasure" : null,
+              "value" : null,
+              "valueFrom" : null,
+              "valueTo" : null,
+              "valueType" : null,
+              "valueLinks" : [ {
+                "id" : "ef5c3bb790ce743e7a87ce3e0c93b16b",
+                "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "sourceType" : "ProductOffering",
+                "sourceEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "bdc655e64c09a494482cd098310e2937",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ],
+                "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                "targetType" : "ProductOfferingPriceSpecification",
+                "relationType" : "USE",
+                "targetEntityPath" : [ {
+                  "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                  "entityType" : "AtomicProductOfferingPriceSpecification"
+                }, {
+                  "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "bdc655e64c09a494482cd098310e2937",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ]
+              }, {
+                "id" : "d330bbc9c7d774819913bf80e8cfc9fb",
+                "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "sourceType" : "ProductOffering",
+                "sourceEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "bdc655e64c09a494482cd098310e2937",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ],
+                "targetId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "targetType" : "ProductOffering",
+                "relationType" : "COMPOSITION",
+                "targetEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "d99c96c79d9344d2990e27b89e23826c",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ]
+              }, {
+                "id" : "a9a1a6e9a25cc4a8b9cd08dc811c2a79",
+                "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "sourceType" : "ProductOffering",
+                "sourceEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "bdc655e64c09a494482cd098310e2937",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ],
+                "targetId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "targetType" : "ProductOffering",
+                "relationType" : "COMPOSITION",
+                "targetEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "bd16232278c2e481092be9e6249440c4",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ]
+              } ],
+              "discrete" : {
+                "boolean" : true
+              },
+              "humanReadableId" : null
+            } ],
+            "links" : [ {
+              "id" : "fc40ea3f976cf457da443a57aabcb2df",
+              "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+              "sourceType" : "ProductOffering",
+              "sourceEntityPath" : [ {
+                "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                "entityType" : "ProductOfferingPrice"
+              }, {
+                "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                "entityType" : "AtomicProductOfferingPrice"
+              }, {
+                "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                "entityType" : "Characteristic"
+              } ],
+              "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+              "targetType" : "ProductOfferingPriceSpecification",
+              "relationType" : "USE",
+              "targetEntityPath" : [ {
+                "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                "entityType" : "AtomicProductOfferingPriceSpecification"
+              }, {
+                "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                "entityType" : "Characteristic"
+              } ]
+            } ],
+            "characteristics" : [ {
+              "description" : {
+                "string" : "Characteristic in the POPS serving as the container for the price."
+              },
+              "name" : {
+                "string" : "Characteristic-bdbe82bb344b3401c9ca75a2f290e0c7"
+              },
+              "id" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+              "derivationFormula" : null,
+              "extensible" : {
+                "boolean" : false
+              },
+              "maxCardinality" : {
+                "int" : 1
+              },
+              "minCardinality" : {
+                "int" : 1
+              },
+              "unique" : null,
+              "valueType" : null,
+              "derivedValueType" : null,
+              "purpose" : null,
+              "valueRegulator" : null,
+              "canBeOverridden" : null,
+              "possibleValues" : [ {
+                "name" : {
+                  "string" : "CharacteristicSpecificationValue-d99c96c79d9344d2990e27b89e23826c"
+                },
+                "description" : null,
+                "id" : "d99c96c79d9344d2990e27b89e23826c",
+                "default" : {
+                  "boolean" : false
+                },
+                "rangeInterval" : null,
+                "unitOfMeasure" : null,
+                "value" : null,
+                "valueFrom" : null,
+                "valueTo" : null,
+                "valueType" : null,
+                "valueLinks" : [ {
+                  "id" : "e45ece56b340144d5aa7ecdde218c749",
+                  "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "sourceType" : "ProductOffering",
+                  "sourceEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "d99c96c79d9344d2990e27b89e23826c",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ],
+                  "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                  "targetType" : "ProductOfferingPriceSpecification",
+                  "relationType" : "USE",
+                  "targetEntityPath" : [ {
+                    "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                    "entityType" : "AtomicProductOfferingPriceSpecification"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "e05b53fd643ce4b59a8f8b643a3b8037",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ]
+                }, {
+                  "id" : "f87917a93fe9b4d8a94fee94a14736fa",
+                  "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "sourceType" : "ProductOffering",
+                  "sourceEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "d99c96c79d9344d2990e27b89e23826c",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ],
+                  "targetId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "targetType" : "ProductOffering",
+                  "relationType" : "COMPOSITION",
+                  "targetEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "d575eff845453401fbc0020e6668a707",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "e8afcf386d82142ef80f3d2e407f8d88",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ]
+                }, {
+                  "id" : "b181245512aea4d59a24f877a21def9b",
+                  "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "sourceType" : "ProductOffering",
+                  "sourceEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "d99c96c79d9344d2990e27b89e23826c",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ],
+                  "targetId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "targetType" : "ProductOffering",
+                  "relationType" : "COMPOSITION",
+                  "targetEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "fc61473b9edf9427f8f462a15d64c9a7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "fbe7d9d5e6c3b48778ec5cde375d074b",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ]
+                } ],
+                "discrete" : {
+                  "boolean" : true
+                },
+                "humanReadableId" : null
+              } ],
+              "links" : [ {
+                "id" : "d7761a9ab048540d6bd315544d58aca7",
+                "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "sourceType" : "ProductOffering",
+                "sourceEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                  "entityType" : "Characteristic"
+                } ],
+                "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                "targetType" : "ProductOfferingPriceSpecification",
+                "relationType" : "USE",
+                "targetEntityPath" : [ {
+                  "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                  "entityType" : "AtomicProductOfferingPriceSpecification"
+                }, {
+                  "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                  "entityType" : "Characteristic"
+                } ]
+              } ],
+              "characteristics" : [ {
+                "description" : {
+                  "string" : "N/A"
+                },
+                "name" : {
+                  "string" : "ProductBucketSpec"
+                },
+                "id" : "d575eff845453401fbc0020e6668a707",
+                "derivationFormula" : null,
+                "extensible" : {
+                  "boolean" : false
+                },
+                "maxCardinality" : {
+                  "int" : 1
+                },
+                "minCardinality" : {
+                  "int" : 1
+                },
+                "unique" : null,
+                "valueType" : null,
+                "derivedValueType" : null,
+                "purpose" : null,
+                "valueRegulator" : {
+                  "string" : "NO_PERSONALIZATION"
+                },
+                "canBeOverridden" : {
+                  "boolean" : true
+                },
+                "possibleValues" : [ {
+                  "name" : {
+                    "string" : "CharacteristicSpecificationValue-e8afcf386d82142ef80f3d2e407f8d88"
+                  },
+                  "description" : null,
+                  "id" : "e8afcf386d82142ef80f3d2e407f8d88",
+                  "default" : {
+                    "boolean" : false
+                  },
+                  "rangeInterval" : null,
+                  "unitOfMeasure" : null,
+                  "value" : {
+                    "string" : "fc548c4e-64db-4942-a2c6-bd319ddfeefa"
+                  },
+                  "valueFrom" : null,
+                  "valueTo" : null,
+                  "valueType" : null,
+                  "valueLinks" : [ {
+                    "id" : "df83aabc1a6844c86aad78ed46afb681",
+                    "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                    "sourceType" : "ProductOffering",
+                    "sourceEntityPath" : [ {
+                      "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                      "entityType" : "ProductOfferingPrice"
+                    }, {
+                      "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                      "entityType" : "AtomicProductOfferingPrice"
+                    }, {
+                      "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "d575eff845453401fbc0020e6668a707",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "e8afcf386d82142ef80f3d2e407f8d88",
+                      "entityType" : "CharacteristicSpecificationValue"
+                    } ],
+                    "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                    "targetType" : "ProductOfferingPriceSpecification",
+                    "relationType" : "USE",
+                    "targetEntityPath" : [ {
+                      "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                      "entityType" : "AtomicProductOfferingPriceSpecification"
+                    }, {
+                      "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "d575eff845453401fbc0020e6668a707",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "e640c9171c33a43459de52c2c4046ea6",
+                      "entityType" : "CharacteristicSpecificationValue"
+                    } ]
+                  } ],
+                  "discrete" : null,
+                  "humanReadableId" : null
+                } ],
+                "links" : [ {
+                  "id" : "f660e78ec5ec64a9182457da8b808cf8",
+                  "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "sourceType" : "ProductOffering",
+                  "sourceEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "d575eff845453401fbc0020e6668a707",
+                    "entityType" : "Characteristic"
+                  } ],
+                  "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                  "targetType" : "ProductOfferingPriceSpecification",
+                  "relationType" : "USE",
+                  "targetEntityPath" : [ {
+                    "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                    "entityType" : "AtomicProductOfferingPriceSpecification"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "d575eff845453401fbc0020e6668a707",
+                    "entityType" : "Characteristic"
+                  } ]
+                } ],
+                "characteristics" : [ ],
+                "annotations" : {
+                  "guiHint" : "ProductBucketSpec",
+                  "ruleFunctionAttribute" : "ProductBucketRef"
+                },
+                "annotationList" : {
+                  "array" : [ {
+                    "key" : "guiHint",
+                    "value" : "ProductBucketSpec"
+                  }, {
+                    "key" : "ruleFunctionAttribute",
+                    "value" : "ProductBucketRef"
+                  } ]
+                },
+                "measure" : null,
+                "limitSpecValueRange" : null,
+                "humanReadableId" : null,
+                "sensitiveInfo" : null,
+                "isPersonalizedValueTransferable" : null
+              }, {
+                "description" : {
+                  "string" : "The value represents the amount that is set to a bucket."
+                },
+                "name" : {
+                  "string" : "ValueWithUoM"
+                },
+                "id" : "fc61473b9edf9427f8f462a15d64c9a7",
+                "derivationFormula" : null,
+                "extensible" : {
+                  "boolean" : false
+                },
+                "maxCardinality" : {
+                  "int" : 1
+                },
+                "minCardinality" : {
+                  "int" : 1
+                },
+                "unique" : null,
+                "valueType" : null,
+                "derivedValueType" : null,
+                "purpose" : null,
+                "valueRegulator" : {
+                  "string" : "CAN_BE_PERSONALIZED"
+                },
+                "canBeOverridden" : {
+                  "boolean" : true
+                },
+                "possibleValues" : [ {
+                  "name" : {
+                    "string" : "CharacteristicSpecificationValue-fbe7d9d5e6c3b48778ec5cde375d074b"
+                  },
+                  "description" : null,
+                  "id" : "fbe7d9d5e6c3b48778ec5cde375d074b",
+                  "default" : {
+                    "boolean" : false
+                  },
+                  "rangeInterval" : null,
+                  "unitOfMeasure" : {
+                    "string" : "gigabyte"
+                  },
+                  "value" : {
+                    "string" : "15"
+                  },
+                  "valueFrom" : null,
+                  "valueTo" : null,
+                  "valueType" : null,
+                  "valueLinks" : [ {
+                    "id" : "aa37560fa8a6c4d4c803a6136dac7dcf",
+                    "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                    "sourceType" : "ProductOffering",
+                    "sourceEntityPath" : [ {
+                      "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                      "entityType" : "ProductOfferingPrice"
+                    }, {
+                      "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                      "entityType" : "AtomicProductOfferingPrice"
+                    }, {
+                      "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "fc61473b9edf9427f8f462a15d64c9a7",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "fbe7d9d5e6c3b48778ec5cde375d074b",
+                      "entityType" : "CharacteristicSpecificationValue"
+                    } ],
+                    "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                    "targetType" : "ProductOfferingPriceSpecification",
+                    "relationType" : "USE",
+                    "targetEntityPath" : [ {
+                      "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                      "entityType" : "AtomicProductOfferingPriceSpecification"
+                    }, {
+                      "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "fc61473b9edf9427f8f462a15d64c9a7",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "a3fc1d34f648d4b178444ae1e59ad346",
+                      "entityType" : "CharacteristicSpecificationValue"
+                    } ]
+                  } ],
+                  "discrete" : null,
+                  "humanReadableId" : null
+                } ],
+                "links" : [ {
+                  "id" : "f1224eddec1954d2b80dcf0cab423ece",
+                  "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "sourceType" : "ProductOffering",
+                  "sourceEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "fc61473b9edf9427f8f462a15d64c9a7",
+                    "entityType" : "Characteristic"
+                  } ],
+                  "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                  "targetType" : "ProductOfferingPriceSpecification",
+                  "relationType" : "USE",
+                  "targetEntityPath" : [ {
+                    "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                    "entityType" : "AtomicProductOfferingPriceSpecification"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "fc61473b9edf9427f8f462a15d64c9a7",
+                    "entityType" : "Characteristic"
+                  } ]
+                } ],
+                "characteristics" : [ ],
+                "annotations" : {
+                  "ruleFunctionAttribute" : "BucketValue"
+                },
+                "annotationList" : {
+                  "array" : [ {
+                    "key" : "ruleFunctionAttribute",
+                    "value" : "BucketValue"
+                  } ]
+                },
+                "measure" : {
+                  "string" : "Data"
+                },
+                "limitSpecValueRange" : null,
+                "humanReadableId" : null,
+                "sensitiveInfo" : null,
+                "isPersonalizedValueTransferable" : null
+              } ],
+              "annotations" : {
+                "ruleFunction" : "SetProductBucket"
+              },
+              "annotationList" : {
+                "array" : [ {
+                  "key" : "ruleFunction",
+                  "value" : "SetProductBucket"
+                } ]
+              },
+              "measure" : null,
+              "limitSpecValueRange" : null,
+              "humanReadableId" : null,
+              "sensitiveInfo" : null,
+              "isPersonalizedValueTransferable" : null
+            }, {
+              "description" : {
+                "string" : "Characteristic in the POPS serving as the container for the price."
+              },
+              "name" : {
+                "string" : "Characteristic-c572ba39379a646f4a3c84e02a5c1591"
+              },
+              "id" : "c572ba39379a646f4a3c84e02a5c1591",
+              "derivationFormula" : null,
+              "extensible" : {
+                "boolean" : false
+              },
+              "maxCardinality" : {
+                "int" : 1
+              },
+              "minCardinality" : {
+                "int" : 1
+              },
+              "unique" : null,
+              "valueType" : null,
+              "derivedValueType" : null,
+              "purpose" : null,
+              "valueRegulator" : null,
+              "canBeOverridden" : null,
+              "possibleValues" : [ {
+                "name" : {
+                  "string" : "CharacteristicSpecificationValue-bd16232278c2e481092be9e6249440c4"
+                },
+                "description" : null,
+                "id" : "bd16232278c2e481092be9e6249440c4",
+                "default" : {
+                  "boolean" : false
+                },
+                "rangeInterval" : null,
+                "unitOfMeasure" : null,
+                "value" : null,
+                "valueFrom" : null,
+                "valueTo" : null,
+                "valueType" : null,
+                "valueLinks" : [ {
+                  "id" : "e60dfd46acbdb4a89a0a094227c1f554",
+                  "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "sourceType" : "ProductOffering",
+                  "sourceEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bd16232278c2e481092be9e6249440c4",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ],
+                  "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                  "targetType" : "ProductOfferingPriceSpecification",
+                  "relationType" : "USE",
+                  "targetEntityPath" : [ {
+                    "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                    "entityType" : "AtomicProductOfferingPriceSpecification"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "cff0d868a4bc24a658e39f553acda291",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ]
+                }, {
+                  "id" : "da29e3df8dac54163bf23188ed469030",
+                  "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "sourceType" : "ProductOffering",
+                  "sourceEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bd16232278c2e481092be9e6249440c4",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ],
+                  "targetId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "targetType" : "ProductOffering",
+                  "relationType" : "COMPOSITION",
+                  "targetEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "b3173673dcaca44bfbd00869498faa47",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "a5953169ec5254bc890aba96e6517983",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ]
+                } ],
+                "discrete" : {
+                  "boolean" : true
+                },
+                "humanReadableId" : null
+              } ],
+              "links" : [ {
+                "id" : "f0b40af5422fb40449455622ecdc0630",
+                "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "sourceType" : "ProductOffering",
+                "sourceEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                  "entityType" : "Characteristic"
+                } ],
+                "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                "targetType" : "ProductOfferingPriceSpecification",
+                "relationType" : "USE",
+                "targetEntityPath" : [ {
+                  "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                  "entityType" : "AtomicProductOfferingPriceSpecification"
+                }, {
+                  "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                  "entityType" : "Characteristic"
+                } ]
+              } ],
+              "characteristics" : [ {
+                "description" : {
+                  "string" : "The value that represents a price."
+                },
+                "name" : {
+                  "string" : "Fee"
+                },
+                "id" : "b3173673dcaca44bfbd00869498faa47",
+                "derivationFormula" : null,
+                "extensible" : {
+                  "boolean" : false
+                },
+                "maxCardinality" : {
+                  "int" : 1
+                },
+                "minCardinality" : {
+                  "int" : 1
+                },
+                "unique" : null,
+                "valueType" : null,
+                "derivedValueType" : null,
+                "purpose" : null,
+                "valueRegulator" : {
+                  "string" : "CAN_BE_PERSONALIZED"
+                },
+                "canBeOverridden" : {
+                  "boolean" : true
+                },
+                "possibleValues" : [ {
+                  "name" : {
+                    "string" : "CharacteristicSpecificationValue-a5953169ec5254bc890aba96e6517983"
+                  },
+                  "description" : null,
+                  "id" : "a5953169ec5254bc890aba96e6517983",
+                  "default" : {
+                    "boolean" : false
+                  },
+                  "rangeInterval" : null,
+                  "unitOfMeasure" : {
+                    "string" : "usd"
+                  },
+                  "value" : {
+                    "string" : "10"
+                  },
+                  "valueFrom" : null,
+                  "valueTo" : null,
+                  "valueType" : null,
+                  "valueLinks" : [ {
+                    "id" : "cc5b9b7ed909640379257b81217d7e97",
+                    "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                    "sourceType" : "ProductOffering",
+                    "sourceEntityPath" : [ {
+                      "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                      "entityType" : "ProductOfferingPrice"
+                    }, {
+                      "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                      "entityType" : "AtomicProductOfferingPrice"
+                    }, {
+                      "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "b3173673dcaca44bfbd00869498faa47",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "a5953169ec5254bc890aba96e6517983",
+                      "entityType" : "CharacteristicSpecificationValue"
+                    } ],
+                    "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                    "targetType" : "ProductOfferingPriceSpecification",
+                    "relationType" : "USE",
+                    "targetEntityPath" : [ {
+                      "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                      "entityType" : "AtomicProductOfferingPriceSpecification"
+                    }, {
+                      "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "b3173673dcaca44bfbd00869498faa47",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "idCsvPossibleValueRange",
+                      "entityType" : "CharacteristicSpecificationValue"
+                    } ]
+                  } ],
+                  "discrete" : null,
+                  "humanReadableId" : null
+                } ],
+                "links" : [ {
+                  "id" : "cc1b088d1f2384a958889fd020a83200",
+                  "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "sourceType" : "ProductOffering",
+                  "sourceEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0aaf0c7a092c4baaa45e4f4fb169b53",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "b3173673dcaca44bfbd00869498faa47",
+                    "entityType" : "Characteristic"
+                  } ],
+                  "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                  "targetType" : "ProductOfferingPriceSpecification",
+                  "relationType" : "USE",
+                  "targetEntityPath" : [ {
+                    "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                    "entityType" : "AtomicProductOfferingPriceSpecification"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "b3173673dcaca44bfbd00869498faa47",
+                    "entityType" : "Characteristic"
+                  } ]
+                } ],
+                "characteristics" : [ ],
+                "annotations" : {
+                  "guiHint" : "PriceUnit",
+                  "ruleFunctionAttribute" : "BillingAccountBucketFee"
+                },
+                "annotationList" : {
+                  "array" : [ {
+                    "key" : "guiHint",
+                    "value" : "PriceUnit"
+                  }, {
+                    "key" : "ruleFunctionAttribute",
+                    "value" : "BillingAccountBucketFee"
+                  } ]
+                },
+                "measure" : {
+                  "string" : "USD"
+                },
+                "limitSpecValueRange" : null,
+                "humanReadableId" : null,
+                "sensitiveInfo" : null,
+                "isPersonalizedValueTransferable" : null
+              } ],
+              "annotations" : {
+                "guiHint" : "Price",
+                "ruleFunction" : "DeductFromBillingAccountBucket"
+              },
+              "annotationList" : {
+                "array" : [ {
+                  "key" : "guiHint",
+                  "value" : "Price"
+                }, {
+                  "key" : "ruleFunction",
+                  "value" : "DeductFromBillingAccountBucket"
+                } ]
+              },
+              "measure" : null,
+              "limitSpecValueRange" : null,
+              "humanReadableId" : null,
+              "sensitiveInfo" : null,
+              "isPersonalizedValueTransferable" : null
+            } ],
+            "annotations" : { },
+            "annotationList" : {
+              "array" : [ ]
+            },
+            "measure" : null,
+            "limitSpecValueRange" : null,
+            "humanReadableId" : null,
+            "sensitiveInfo" : null,
+            "isPersonalizedValueTransferable" : null
+          } ]
+        }
+      }, {
+        "id" : "b8ec7e06531604a84b55056f68674d0a",
+        "name" : {
+          "string" : "AtomicProductOfferingPrice-b8ec7e06531604a84b55056f68674d0a"
+        },
+        "atomicProductOfferingPriceSpecificationRelation" : {
+          "id" : "ed93499cba5234f5b9ff1155db1fe257",
+          "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+          "sourceType" : "ProductOffering",
+          "sourceEntityPath" : [ {
+            "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+            "entityType" : "ProductOfferingPrice"
+          }, {
+            "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+            "entityType" : "AtomicProductOfferingPrice"
+          } ],
+          "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+          "targetType" : "ProductOfferingPriceSpecification",
+          "relationType" : "DESIGN",
+          "targetEntityPath" : [ {
+            "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+            "entityType" : "AtomicProductOfferingPriceSpecification"
+          } ]
+        },
+        "characteristics" : {
+          "array" : [ {
+            "description" : {
+              "string" : "It is used to group the dimension structure that shall be created on the (A)POP."
+            },
+            "name" : {
+              "string" : "Task"
+            },
+            "id" : "e5ef7a1d4b14d48049d690437fcfe15a",
+            "derivationFormula" : null,
+            "extensible" : {
+              "boolean" : false
+            },
+            "maxCardinality" : {
+              "int" : 2147483647
+            },
+            "minCardinality" : {
+              "int" : 1
+            },
+            "unique" : null,
+            "valueType" : null,
+            "derivedValueType" : null,
+            "purpose" : null,
+            "valueRegulator" : null,
+            "canBeOverridden" : null,
+            "possibleValues" : [ {
+              "name" : {
+                "string" : "Possible value range for Task"
+              },
+              "description" : null,
+              "id" : "eda937d33b9404f55bf9be53f1fe145a",
+              "default" : {
+                "boolean" : true
+              },
+              "rangeInterval" : null,
+              "unitOfMeasure" : null,
+              "value" : null,
+              "valueFrom" : null,
+              "valueTo" : null,
+              "valueType" : null,
+              "valueLinks" : [ {
+                "id" : "daf5d7632f12a4f728dbb21b571ccfb2",
+                "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "sourceType" : "ProductOffering",
+                "sourceEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "eda937d33b9404f55bf9be53f1fe145a",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ],
+                "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                "targetType" : "ProductOfferingPriceSpecification",
+                "relationType" : "USE",
+                "targetEntityPath" : [ {
+                  "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                  "entityType" : "AtomicProductOfferingPriceSpecification"
+                }, {
+                  "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "eda937d33b9404f55bf9be53f1fe145a",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ]
+              }, {
+                "id" : "b9b3806d08d164fdb9cb9067ec1901e3",
+                "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "sourceType" : "ProductOffering",
+                "sourceEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "eda937d33b9404f55bf9be53f1fe145a",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ],
+                "targetId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "targetType" : "ProductOffering",
+                "relationType" : "COMPOSITION",
+                "targetEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "f6d8e5064b3834963924c2eaaf18852a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "b81b33d5e444842a8b124ef6cb6d8a67",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ]
+              }, {
+                "id" : "eed032027997147a58f9966b80d11d6c",
+                "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "sourceType" : "ProductOffering",
+                "sourceEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "eda937d33b9404f55bf9be53f1fe145a",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ],
+                "targetId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "targetType" : "ProductOffering",
+                "relationType" : "COMPOSITION",
+                "targetEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "b5874604dec6f4d6ab01034266bbc5b1",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "ea03fcf5bc4e044a492676d1323f4c2e",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ]
+              } ],
+              "discrete" : {
+                "boolean" : true
+              },
+              "humanReadableId" : null
+            } ],
+            "links" : [ {
+              "id" : "d621cd9bad0a8414f80af6daefeffd9a",
+              "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+              "sourceType" : "ProductOffering",
+              "sourceEntityPath" : [ {
+                "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                "entityType" : "ProductOfferingPrice"
+              }, {
+                "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                "entityType" : "AtomicProductOfferingPrice"
+              }, {
+                "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                "entityType" : "Characteristic"
+              } ],
+              "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+              "targetType" : "ProductOfferingPriceSpecification",
+              "relationType" : "USE",
+              "targetEntityPath" : [ {
+                "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                "entityType" : "AtomicProductOfferingPriceSpecification"
+              }, {
+                "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                "entityType" : "Characteristic"
+              } ]
+            } ],
+            "characteristics" : [ {
+              "description" : {
+                "string" : "It is used to indicate in which order the (A)POP should be processed."
+              },
+              "name" : {
+                "string" : "Order"
+              },
+              "id" : "f6d8e5064b3834963924c2eaaf18852a",
+              "derivationFormula" : null,
+              "extensible" : {
+                "boolean" : false
+              },
+              "maxCardinality" : {
+                "int" : 1
+              },
+              "minCardinality" : {
+                "int" : 1
+              },
+              "unique" : null,
+              "valueType" : null,
+              "derivedValueType" : null,
+              "purpose" : null,
+              "valueRegulator" : {
+                "string" : "NO_PERSONALIZATION"
+              },
+              "canBeOverridden" : {
+                "boolean" : true
+              },
+              "possibleValues" : [ {
+                "name" : {
+                  "string" : "CharacteristicSpecificationValue-b81b33d5e444842a8b124ef6cb6d8a67"
+                },
+                "description" : null,
+                "id" : "b81b33d5e444842a8b124ef6cb6d8a67",
+                "default" : {
+                  "boolean" : false
+                },
+                "rangeInterval" : null,
+                "unitOfMeasure" : null,
+                "value" : {
+                  "string" : "2"
+                },
+                "valueFrom" : null,
+                "valueTo" : null,
+                "valueType" : null,
+                "valueLinks" : [ {
+                  "id" : "d985a1855f29a4f68a61bb526af5a3bc",
+                  "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "sourceType" : "ProductOffering",
+                  "sourceEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "f6d8e5064b3834963924c2eaaf18852a",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "b81b33d5e444842a8b124ef6cb6d8a67",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ],
+                  "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                  "targetType" : "ProductOfferingPriceSpecification",
+                  "relationType" : "USE",
+                  "targetEntityPath" : [ {
+                    "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                    "entityType" : "AtomicProductOfferingPriceSpecification"
+                  }, {
+                    "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "f6d8e5064b3834963924c2eaaf18852a",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "orderValueRange",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ]
+                } ],
+                "discrete" : null,
+                "humanReadableId" : null
+              } ],
+              "links" : [ {
+                "id" : "f42024db55c614c43a9b62081cb511b0",
+                "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "sourceType" : "ProductOffering",
+                "sourceEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "f6d8e5064b3834963924c2eaaf18852a",
+                  "entityType" : "Characteristic"
+                } ],
+                "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                "targetType" : "ProductOfferingPriceSpecification",
+                "relationType" : "USE",
+                "targetEntityPath" : [ {
+                  "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                  "entityType" : "AtomicProductOfferingPriceSpecification"
+                }, {
+                  "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "f6d8e5064b3834963924c2eaaf18852a",
+                  "entityType" : "Characteristic"
+                } ]
+              } ],
+              "characteristics" : [ ],
+              "annotations" : { },
+              "annotationList" : {
+                "array" : [ ]
+              },
+              "measure" : null,
+              "limitSpecValueRange" : null,
+              "humanReadableId" : null,
+              "sensitiveInfo" : null,
+              "isPersonalizedValueTransferable" : null
+            }, {
+              "description" : {
+                "string" : "It is used to indicate that value on the CharacteristicSpecificationValue is a reference."
+              },
+              "name" : {
+                "string" : "Reference"
+              },
+              "id" : "b5874604dec6f4d6ab01034266bbc5b1",
+              "derivationFormula" : null,
+              "extensible" : {
+                "boolean" : false
+              },
+              "maxCardinality" : {
+                "int" : 1
+              },
+              "minCardinality" : {
+                "int" : 0
+              },
+              "unique" : null,
+              "valueType" : null,
+              "derivedValueType" : null,
+              "purpose" : null,
+              "valueRegulator" : {
+                "string" : "NO_PERSONALIZATION"
+              },
+              "canBeOverridden" : {
+                "boolean" : true
+              },
+              "possibleValues" : [ {
+                "name" : {
+                  "string" : "Below 5 GB"
+                },
+                "description" : null,
+                "id" : "ea03fcf5bc4e044a492676d1323f4c2e",
+                "default" : {
+                  "boolean" : false
+                },
+                "rangeInterval" : null,
+                "unitOfMeasure" : null,
+                "value" : {
+                  "string" : "rmref://rmca/PO/a91a2315-7ed3-4677-a5eb-f89b97f3052a/POP/ecb14e65b6ec03a6a9630f2378b7d52a/Char/dd93f6953848741ed842d1ea24568060/Char/b45e78b0a455140ba9d50937c8c5cc2a/CSV/c54b8f2ff6afa453ab2840f3bcd61c91"
+                },
+                "valueFrom" : null,
+                "valueTo" : null,
+                "valueType" : null,
+                "valueLinks" : [ {
+                  "id" : "c34f06a6d932b43bfb6814e5018dce80",
+                  "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "sourceType" : "ProductOffering",
+                  "sourceEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "b5874604dec6f4d6ab01034266bbc5b1",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "ea03fcf5bc4e044a492676d1323f4c2e",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ],
+                  "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                  "targetType" : "ProductOfferingPriceSpecification",
+                  "relationType" : "USE",
+                  "targetEntityPath" : [ {
+                    "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                    "entityType" : "AtomicProductOfferingPriceSpecification"
+                  }, {
+                    "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "b5874604dec6f4d6ab01034266bbc5b1",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "idCsvPossibleValueRange",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ]
+                } ],
+                "discrete" : null,
+                "humanReadableId" : null
+              } ],
+              "links" : [ {
+                "id" : "aab24a8827ba64a268763725fbb01e7a",
+                "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "sourceType" : "ProductOffering",
+                "sourceEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "b5874604dec6f4d6ab01034266bbc5b1",
+                  "entityType" : "Characteristic"
+                } ],
+                "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                "targetType" : "ProductOfferingPriceSpecification",
+                "relationType" : "USE",
+                "targetEntityPath" : [ {
+                  "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                  "entityType" : "AtomicProductOfferingPriceSpecification"
+                }, {
+                  "entityId" : "e5ef7a1d4b14d48049d690437fcfe15a",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "b5874604dec6f4d6ab01034266bbc5b1",
+                  "entityType" : "Characteristic"
+                } ]
+              } ],
+              "characteristics" : [ ],
+              "annotations" : { },
+              "annotationList" : {
+                "array" : [ ]
+              },
+              "measure" : null,
+              "limitSpecValueRange" : null,
+              "humanReadableId" : null,
+              "sensitiveInfo" : null,
+              "isPersonalizedValueTransferable" : null
+            } ],
+            "annotations" : { },
+            "annotationList" : {
+              "array" : [ ]
+            },
+            "measure" : null,
+            "limitSpecValueRange" : null,
+            "humanReadableId" : null,
+            "sensitiveInfo" : null,
+            "isPersonalizedValueTransferable" : null
+          }, {
+            "description" : {
+              "string" : "Is used to group the actions that shall be executed for every (A)POP."
+            },
+            "name" : {
+              "string" : "Actions"
+            },
+            "id" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+            "derivationFormula" : null,
+            "extensible" : {
+              "boolean" : false
+            },
+            "maxCardinality" : {
+              "int" : 1
+            },
+            "minCardinality" : {
+              "int" : 1
+            },
+            "unique" : null,
+            "valueType" : null,
+            "derivedValueType" : null,
+            "purpose" : null,
+            "valueRegulator" : null,
+            "canBeOverridden" : null,
+            "possibleValues" : [ {
+              "name" : {
+                "string" : "10 GB a $10 fee"
+              },
+              "description" : null,
+              "id" : "bdc655e64c09a494482cd098310e2937",
+              "default" : {
+                "boolean" : true
+              },
+              "rangeInterval" : null,
+              "unitOfMeasure" : null,
+              "value" : null,
+              "valueFrom" : null,
+              "valueTo" : null,
+              "valueType" : null,
+              "valueLinks" : [ {
+                "id" : "cffb116044368494fac7a7118cb28223",
+                "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "sourceType" : "ProductOffering",
+                "sourceEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "bdc655e64c09a494482cd098310e2937",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ],
+                "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                "targetType" : "ProductOfferingPriceSpecification",
+                "relationType" : "USE",
+                "targetEntityPath" : [ {
+                  "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                  "entityType" : "AtomicProductOfferingPriceSpecification"
+                }, {
+                  "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "bdc655e64c09a494482cd098310e2937",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ]
+              }, {
+                "id" : "aec05a1d206bb45d386151a5a38c7ad4",
+                "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "sourceType" : "ProductOffering",
+                "sourceEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "bdc655e64c09a494482cd098310e2937",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ],
+                "targetId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "targetType" : "ProductOffering",
+                "relationType" : "COMPOSITION",
+                "targetEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "e7e93958441304abe933ebefdd5d5a5c",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ]
+              }, {
+                "id" : "b28b1d384a1b043a194604322479d30f",
+                "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "sourceType" : "ProductOffering",
+                "sourceEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "bdc655e64c09a494482cd098310e2937",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ],
+                "targetId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "targetType" : "ProductOffering",
+                "relationType" : "COMPOSITION",
+                "targetEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "a287264dd3d11486c97f94463b40d5fc",
+                  "entityType" : "CharacteristicSpecificationValue"
+                } ]
+              } ],
+              "discrete" : {
+                "boolean" : true
+              },
+              "humanReadableId" : null
+            } ],
+            "links" : [ {
+              "id" : "e9cc674f7b33945e69bebf7cc8b9fce8",
+              "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+              "sourceType" : "ProductOffering",
+              "sourceEntityPath" : [ {
+                "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                "entityType" : "ProductOfferingPrice"
+              }, {
+                "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                "entityType" : "AtomicProductOfferingPrice"
+              }, {
+                "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                "entityType" : "Characteristic"
+              } ],
+              "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+              "targetType" : "ProductOfferingPriceSpecification",
+              "relationType" : "USE",
+              "targetEntityPath" : [ {
+                "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                "entityType" : "AtomicProductOfferingPriceSpecification"
+              }, {
+                "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                "entityType" : "Characteristic"
+              } ]
+            } ],
+            "characteristics" : [ {
+              "description" : {
+                "string" : "Characteristic in the POPS serving as the container for the price."
+              },
+              "name" : {
+                "string" : "Characteristic-bdbe82bb344b3401c9ca75a2f290e0c7"
+              },
+              "id" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+              "derivationFormula" : null,
+              "extensible" : {
+                "boolean" : false
+              },
+              "maxCardinality" : {
+                "int" : 1
+              },
+              "minCardinality" : {
+                "int" : 1
+              },
+              "unique" : null,
+              "valueType" : null,
+              "derivedValueType" : null,
+              "purpose" : null,
+              "valueRegulator" : null,
+              "canBeOverridden" : null,
+              "possibleValues" : [ {
+                "name" : {
+                  "string" : "CharacteristicSpecificationValue-e7e93958441304abe933ebefdd5d5a5c"
+                },
+                "description" : null,
+                "id" : "e7e93958441304abe933ebefdd5d5a5c",
+                "default" : {
+                  "boolean" : false
+                },
+                "rangeInterval" : null,
+                "unitOfMeasure" : null,
+                "value" : null,
+                "valueFrom" : null,
+                "valueTo" : null,
+                "valueType" : null,
+                "valueLinks" : [ {
+                  "id" : "bd9ed0b65fc8a4ae4a6be7be011e9a08",
+                  "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "sourceType" : "ProductOffering",
+                  "sourceEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "e7e93958441304abe933ebefdd5d5a5c",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ],
+                  "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                  "targetType" : "ProductOfferingPriceSpecification",
+                  "relationType" : "USE",
+                  "targetEntityPath" : [ {
+                    "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                    "entityType" : "AtomicProductOfferingPriceSpecification"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "e05b53fd643ce4b59a8f8b643a3b8037",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ]
+                }, {
+                  "id" : "b54cd6e02664c4444b7ea305c055eaef",
+                  "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "sourceType" : "ProductOffering",
+                  "sourceEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "e7e93958441304abe933ebefdd5d5a5c",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ],
+                  "targetId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "targetType" : "ProductOffering",
+                  "relationType" : "COMPOSITION",
+                  "targetEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "d575eff845453401fbc0020e6668a707",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "af6ed0c37d36446098e7cd2ab8603344",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ]
+                }, {
+                  "id" : "cd04a4c0681c44f0ca33933849b8fd9c",
+                  "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "sourceType" : "ProductOffering",
+                  "sourceEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "e7e93958441304abe933ebefdd5d5a5c",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ],
+                  "targetId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "targetType" : "ProductOffering",
+                  "relationType" : "COMPOSITION",
+                  "targetEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "fc61473b9edf9427f8f462a15d64c9a7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "fa62be92bacd04983ae7f6955f91d643",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ]
+                } ],
+                "discrete" : {
+                  "boolean" : true
+                },
+                "humanReadableId" : null
+              } ],
+              "links" : [ {
+                "id" : "d01eeb5bf3acb4cd1a11fa34730d016e",
+                "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "sourceType" : "ProductOffering",
+                "sourceEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                  "entityType" : "Characteristic"
+                } ],
+                "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                "targetType" : "ProductOfferingPriceSpecification",
+                "relationType" : "USE",
+                "targetEntityPath" : [ {
+                  "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                  "entityType" : "AtomicProductOfferingPriceSpecification"
+                }, {
+                  "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                  "entityType" : "Characteristic"
+                } ]
+              } ],
+              "characteristics" : [ {
+                "description" : {
+                  "string" : "N/A"
+                },
+                "name" : {
+                  "string" : "ProductBucketSpec"
+                },
+                "id" : "d575eff845453401fbc0020e6668a707",
+                "derivationFormula" : null,
+                "extensible" : {
+                  "boolean" : false
+                },
+                "maxCardinality" : {
+                  "int" : 1
+                },
+                "minCardinality" : {
+                  "int" : 1
+                },
+                "unique" : null,
+                "valueType" : null,
+                "derivedValueType" : null,
+                "purpose" : null,
+                "valueRegulator" : {
+                  "string" : "NO_PERSONALIZATION"
+                },
+                "canBeOverridden" : {
+                  "boolean" : true
+                },
+                "possibleValues" : [ {
+                  "name" : {
+                    "string" : "CharacteristicSpecificationValue-af6ed0c37d36446098e7cd2ab8603344"
+                  },
+                  "description" : null,
+                  "id" : "af6ed0c37d36446098e7cd2ab8603344",
+                  "default" : {
+                    "boolean" : false
+                  },
+                  "rangeInterval" : null,
+                  "unitOfMeasure" : null,
+                  "value" : {
+                    "string" : "fc548c4e-64db-4942-a2c6-bd319ddfeefa"
+                  },
+                  "valueFrom" : null,
+                  "valueTo" : null,
+                  "valueType" : null,
+                  "valueLinks" : [ {
+                    "id" : "fe68dd83f35c0429abd0f378ce64f52b",
+                    "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                    "sourceType" : "ProductOffering",
+                    "sourceEntityPath" : [ {
+                      "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                      "entityType" : "ProductOfferingPrice"
+                    }, {
+                      "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                      "entityType" : "AtomicProductOfferingPrice"
+                    }, {
+                      "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "d575eff845453401fbc0020e6668a707",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "af6ed0c37d36446098e7cd2ab8603344",
+                      "entityType" : "CharacteristicSpecificationValue"
+                    } ],
+                    "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                    "targetType" : "ProductOfferingPriceSpecification",
+                    "relationType" : "USE",
+                    "targetEntityPath" : [ {
+                      "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                      "entityType" : "AtomicProductOfferingPriceSpecification"
+                    }, {
+                      "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "d575eff845453401fbc0020e6668a707",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "e640c9171c33a43459de52c2c4046ea6",
+                      "entityType" : "CharacteristicSpecificationValue"
+                    } ]
+                  } ],
+                  "discrete" : null,
+                  "humanReadableId" : null
+                } ],
+                "links" : [ {
+                  "id" : "a4dcfe0e4425743918fa8d8e18d733f4",
+                  "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "sourceType" : "ProductOffering",
+                  "sourceEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "d575eff845453401fbc0020e6668a707",
+                    "entityType" : "Characteristic"
+                  } ],
+                  "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                  "targetType" : "ProductOfferingPriceSpecification",
+                  "relationType" : "USE",
+                  "targetEntityPath" : [ {
+                    "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                    "entityType" : "AtomicProductOfferingPriceSpecification"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "d575eff845453401fbc0020e6668a707",
+                    "entityType" : "Characteristic"
+                  } ]
+                } ],
+                "characteristics" : [ ],
+                "annotations" : {
+                  "guiHint" : "ProductBucketSpec",
+                  "ruleFunctionAttribute" : "ProductBucketRef"
+                },
+                "annotationList" : {
+                  "array" : [ {
+                    "key" : "guiHint",
+                    "value" : "ProductBucketSpec"
+                  }, {
+                    "key" : "ruleFunctionAttribute",
+                    "value" : "ProductBucketRef"
+                  } ]
+                },
+                "measure" : null,
+                "limitSpecValueRange" : null,
+                "humanReadableId" : null,
+                "sensitiveInfo" : null,
+                "isPersonalizedValueTransferable" : null
+              }, {
+                "description" : {
+                  "string" : "The value represents the amount that is set to a bucket."
+                },
+                "name" : {
+                  "string" : "ValueWithUoM"
+                },
+                "id" : "fc61473b9edf9427f8f462a15d64c9a7",
+                "derivationFormula" : null,
+                "extensible" : {
+                  "boolean" : false
+                },
+                "maxCardinality" : {
+                  "int" : 1
+                },
+                "minCardinality" : {
+                  "int" : 1
+                },
+                "unique" : null,
+                "valueType" : null,
+                "derivedValueType" : null,
+                "purpose" : null,
+                "valueRegulator" : {
+                  "string" : "CAN_BE_PERSONALIZED"
+                },
+                "canBeOverridden" : {
+                  "boolean" : true
+                },
+                "possibleValues" : [ {
+                  "name" : {
+                    "string" : "CharacteristicSpecificationValue-fa62be92bacd04983ae7f6955f91d643"
+                  },
+                  "description" : null,
+                  "id" : "fa62be92bacd04983ae7f6955f91d643",
+                  "default" : {
+                    "boolean" : false
+                  },
+                  "rangeInterval" : null,
+                  "unitOfMeasure" : {
+                    "string" : "gigabyte"
+                  },
+                  "value" : {
+                    "string" : "10"
+                  },
+                  "valueFrom" : null,
+                  "valueTo" : null,
+                  "valueType" : null,
+                  "valueLinks" : [ {
+                    "id" : "e037c24f96572429490ee701007b2976",
+                    "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                    "sourceType" : "ProductOffering",
+                    "sourceEntityPath" : [ {
+                      "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                      "entityType" : "ProductOfferingPrice"
+                    }, {
+                      "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                      "entityType" : "AtomicProductOfferingPrice"
+                    }, {
+                      "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "fc61473b9edf9427f8f462a15d64c9a7",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "fa62be92bacd04983ae7f6955f91d643",
+                      "entityType" : "CharacteristicSpecificationValue"
+                    } ],
+                    "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                    "targetType" : "ProductOfferingPriceSpecification",
+                    "relationType" : "USE",
+                    "targetEntityPath" : [ {
+                      "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                      "entityType" : "AtomicProductOfferingPriceSpecification"
+                    }, {
+                      "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "fc61473b9edf9427f8f462a15d64c9a7",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "a3fc1d34f648d4b178444ae1e59ad346",
+                      "entityType" : "CharacteristicSpecificationValue"
+                    } ]
+                  } ],
+                  "discrete" : null,
+                  "humanReadableId" : null
+                } ],
+                "links" : [ {
+                  "id" : "d080f96d159234395898d47b45c60060",
+                  "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "sourceType" : "ProductOffering",
+                  "sourceEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "fc61473b9edf9427f8f462a15d64c9a7",
+                    "entityType" : "Characteristic"
+                  } ],
+                  "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                  "targetType" : "ProductOfferingPriceSpecification",
+                  "relationType" : "USE",
+                  "targetEntityPath" : [ {
+                    "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                    "entityType" : "AtomicProductOfferingPriceSpecification"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "bdbe82bb344b3401c9ca75a2f290e0c7",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "fc61473b9edf9427f8f462a15d64c9a7",
+                    "entityType" : "Characteristic"
+                  } ]
+                } ],
+                "characteristics" : [ ],
+                "annotations" : {
+                  "ruleFunctionAttribute" : "BucketValue"
+                },
+                "annotationList" : {
+                  "array" : [ {
+                    "key" : "ruleFunctionAttribute",
+                    "value" : "BucketValue"
+                  } ]
+                },
+                "measure" : {
+                  "string" : "Data"
+                },
+                "limitSpecValueRange" : null,
+                "humanReadableId" : null,
+                "sensitiveInfo" : null,
+                "isPersonalizedValueTransferable" : null
+              } ],
+              "annotations" : {
+                "ruleFunction" : "SetProductBucket"
+              },
+              "annotationList" : {
+                "array" : [ {
+                  "key" : "ruleFunction",
+                  "value" : "SetProductBucket"
+                } ]
+              },
+              "measure" : null,
+              "limitSpecValueRange" : null,
+              "humanReadableId" : null,
+              "sensitiveInfo" : null,
+              "isPersonalizedValueTransferable" : null
+            }, {
+              "description" : {
+                "string" : "Characteristic in the POPS serving as the container for the price."
+              },
+              "name" : {
+                "string" : "Characteristic-c572ba39379a646f4a3c84e02a5c1591"
+              },
+              "id" : "c572ba39379a646f4a3c84e02a5c1591",
+              "derivationFormula" : null,
+              "extensible" : {
+                "boolean" : false
+              },
+              "maxCardinality" : {
+                "int" : 1
+              },
+              "minCardinality" : {
+                "int" : 1
+              },
+              "unique" : null,
+              "valueType" : null,
+              "derivedValueType" : null,
+              "purpose" : null,
+              "valueRegulator" : null,
+              "canBeOverridden" : null,
+              "possibleValues" : [ {
+                "name" : {
+                  "string" : "CharacteristicSpecificationValue-a287264dd3d11486c97f94463b40d5fc"
+                },
+                "description" : null,
+                "id" : "a287264dd3d11486c97f94463b40d5fc",
+                "default" : {
+                  "boolean" : false
+                },
+                "rangeInterval" : null,
+                "unitOfMeasure" : null,
+                "value" : null,
+                "valueFrom" : null,
+                "valueTo" : null,
+                "valueType" : null,
+                "valueLinks" : [ {
+                  "id" : "b6267e5aa07534e5babcd07a45adf8a6",
+                  "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "sourceType" : "ProductOffering",
+                  "sourceEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "a287264dd3d11486c97f94463b40d5fc",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ],
+                  "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                  "targetType" : "ProductOfferingPriceSpecification",
+                  "relationType" : "USE",
+                  "targetEntityPath" : [ {
+                    "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                    "entityType" : "AtomicProductOfferingPriceSpecification"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "cff0d868a4bc24a658e39f553acda291",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ]
+                }, {
+                  "id" : "fc1442053e8da43fa9c78fb623dae4f7",
+                  "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "sourceType" : "ProductOffering",
+                  "sourceEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "a287264dd3d11486c97f94463b40d5fc",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ],
+                  "targetId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "targetType" : "ProductOffering",
+                  "relationType" : "COMPOSITION",
+                  "targetEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "b3173673dcaca44bfbd00869498faa47",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "d11f6c235319048bfbca76b6545d2d95",
+                    "entityType" : "CharacteristicSpecificationValue"
+                  } ]
+                } ],
+                "discrete" : {
+                  "boolean" : true
+                },
+                "humanReadableId" : null
+              } ],
+              "links" : [ {
+                "id" : "e93959ad25eae42018d01b1198e73863",
+                "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                "sourceType" : "ProductOffering",
+                "sourceEntityPath" : [ {
+                  "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                  "entityType" : "ProductOfferingPrice"
+                }, {
+                  "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                  "entityType" : "AtomicProductOfferingPrice"
+                }, {
+                  "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                  "entityType" : "Characteristic"
+                } ],
+                "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                "targetType" : "ProductOfferingPriceSpecification",
+                "relationType" : "USE",
+                "targetEntityPath" : [ {
+                  "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                  "entityType" : "AtomicProductOfferingPriceSpecification"
+                }, {
+                  "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                  "entityType" : "Characteristic"
+                }, {
+                  "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                  "entityType" : "Characteristic"
+                } ]
+              } ],
+              "characteristics" : [ {
+                "description" : {
+                  "string" : "The value that represents a price."
+                },
+                "name" : {
+                  "string" : "Fee"
+                },
+                "id" : "b3173673dcaca44bfbd00869498faa47",
+                "derivationFormula" : null,
+                "extensible" : {
+                  "boolean" : false
+                },
+                "maxCardinality" : {
+                  "int" : 1
+                },
+                "minCardinality" : {
+                  "int" : 1
+                },
+                "unique" : null,
+                "valueType" : null,
+                "derivedValueType" : null,
+                "purpose" : null,
+                "valueRegulator" : {
+                  "string" : "CAN_BE_PERSONALIZED"
+                },
+                "canBeOverridden" : {
+                  "boolean" : true
+                },
+                "possibleValues" : [ {
+                  "name" : {
+                    "string" : "CharacteristicSpecificationValue-d11f6c235319048bfbca76b6545d2d95"
+                  },
+                  "description" : null,
+                  "id" : "d11f6c235319048bfbca76b6545d2d95",
+                  "default" : {
+                    "boolean" : false
+                  },
+                  "rangeInterval" : null,
+                  "unitOfMeasure" : {
+                    "string" : "usd"
+                  },
+                  "value" : {
+                    "string" : "10"
+                  },
+                  "valueFrom" : null,
+                  "valueTo" : null,
+                  "valueType" : null,
+                  "valueLinks" : [ {
+                    "id" : "cc94129b36ff74645bdfb13bfcde5b96",
+                    "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                    "sourceType" : "ProductOffering",
+                    "sourceEntityPath" : [ {
+                      "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                      "entityType" : "ProductOfferingPrice"
+                    }, {
+                      "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                      "entityType" : "AtomicProductOfferingPrice"
+                    }, {
+                      "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "b3173673dcaca44bfbd00869498faa47",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "d11f6c235319048bfbca76b6545d2d95",
+                      "entityType" : "CharacteristicSpecificationValue"
+                    } ],
+                    "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                    "targetType" : "ProductOfferingPriceSpecification",
+                    "relationType" : "USE",
+                    "targetEntityPath" : [ {
+                      "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                      "entityType" : "AtomicProductOfferingPriceSpecification"
+                    }, {
+                      "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "b3173673dcaca44bfbd00869498faa47",
+                      "entityType" : "Characteristic"
+                    }, {
+                      "entityId" : "idCsvPossibleValueRange",
+                      "entityType" : "CharacteristicSpecificationValue"
+                    } ]
+                  } ],
+                  "discrete" : null,
+                  "humanReadableId" : null
+                } ],
+                "links" : [ {
+                  "id" : "ffce5e52e18c14c30ae38e76e6b6d7d9",
+                  "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+                  "sourceType" : "ProductOffering",
+                  "sourceEntityPath" : [ {
+                    "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                    "entityType" : "ProductOfferingPrice"
+                  }, {
+                    "entityId" : "b8ec7e06531604a84b55056f68674d0a",
+                    "entityType" : "AtomicProductOfferingPrice"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "b3173673dcaca44bfbd00869498faa47",
+                    "entityType" : "Characteristic"
+                  } ],
+                  "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+                  "targetType" : "ProductOfferingPriceSpecification",
+                  "relationType" : "USE",
+                  "targetEntityPath" : [ {
+                    "entityId" : "d9665b013dc7d4e6792ab58c80fbe8a5",
+                    "entityType" : "AtomicProductOfferingPriceSpecification"
+                  }, {
+                    "entityId" : "c0b9bdec5587f4fa88bc0dde5c1d1bed",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "c572ba39379a646f4a3c84e02a5c1591",
+                    "entityType" : "Characteristic"
+                  }, {
+                    "entityId" : "b3173673dcaca44bfbd00869498faa47",
+                    "entityType" : "Characteristic"
+                  } ]
+                } ],
+                "characteristics" : [ ],
+                "annotations" : {
+                  "guiHint" : "PriceUnit",
+                  "ruleFunctionAttribute" : "BillingAccountBucketFee"
+                },
+                "annotationList" : {
+                  "array" : [ {
+                    "key" : "guiHint",
+                    "value" : "PriceUnit"
+                  }, {
+                    "key" : "ruleFunctionAttribute",
+                    "value" : "BillingAccountBucketFee"
+                  } ]
+                },
+                "measure" : {
+                  "string" : "USD"
+                },
+                "limitSpecValueRange" : null,
+                "humanReadableId" : null,
+                "sensitiveInfo" : null,
+                "isPersonalizedValueTransferable" : null
+              } ],
+              "annotations" : {
+                "guiHint" : "Price",
+                "ruleFunction" : "DeductFromBillingAccountBucket"
+              },
+              "annotationList" : {
+                "array" : [ {
+                  "key" : "guiHint",
+                  "value" : "Price"
+                }, {
+                  "key" : "ruleFunction",
+                  "value" : "DeductFromBillingAccountBucket"
+                } ]
+              },
+              "measure" : null,
+              "limitSpecValueRange" : null,
+              "humanReadableId" : null,
+              "sensitiveInfo" : null,
+              "isPersonalizedValueTransferable" : null
+            } ],
+            "annotations" : { },
+            "annotationList" : {
+              "array" : [ ]
+            },
+            "measure" : null,
+            "limitSpecValueRange" : null,
+            "humanReadableId" : null,
+            "sensitiveInfo" : null,
+            "isPersonalizedValueTransferable" : null
+          } ]
+        }
+      } ]
+    },
+    "logicAlgorithm" : {
+      "com.ericsson.bss.rmca.persistenceservice.domainobjects.LogicAlgorithm" : {
+        "id" : "e559e40924ebc4f9d9486439c11496b0",
+        "logicAlgorithmSpecificationRelation" : {
+          "id" : "fde76f9e3cc444ccc8b153ef30a3d901",
+          "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+          "sourceType" : "ProductOffering",
+          "sourceEntityPath" : [ {
+            "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+            "entityType" : "ProductOfferingPrice"
+          }, {
+            "entityId" : "e559e40924ebc4f9d9486439c11496b0",
+            "entityType" : "LogicAlgorithm"
+          } ],
+          "targetId" : "925c62f8-c2fb-482b-bc76-462a7729248f",
+          "targetType" : "LogicAlgorithmSpecification",
+          "relationType" : "DESIGN",
+          "targetEntityPath" : [ ]
+        }
+      }
+    },
+    "characteristics" : {
+      "array" : [ {
+        "description" : {
+          "string" : "It is used to group all dimensions that shall be created on the (C)POP."
+        },
+        "name" : {
+          "string" : "Dimensions"
+        },
+        "id" : "dd93f6953848741ed842d1ea24568060",
+        "derivationFormula" : null,
+        "extensible" : {
+          "boolean" : false
+        },
+        "maxCardinality" : {
+          "int" : 1
+        },
+        "minCardinality" : {
+          "int" : 0
+        },
+        "unique" : null,
+        "valueType" : null,
+        "derivedValueType" : null,
+        "purpose" : null,
+        "valueRegulator" : null,
+        "canBeOverridden" : null,
+        "possibleValues" : [ {
+          "name" : {
+            "string" : "Possible value range for Dimensions"
+          },
+          "description" : null,
+          "id" : "bc67c10a20af34cd08d66e1ee656b849",
+          "default" : {
+            "boolean" : false
+          },
+          "rangeInterval" : null,
+          "unitOfMeasure" : null,
+          "value" : null,
+          "valueFrom" : null,
+          "valueTo" : null,
+          "valueType" : null,
+          "valueLinks" : [ {
+            "id" : "f8ee99d1d535146be8e8ce894e94f66a",
+            "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+            "sourceType" : "ProductOffering",
+            "sourceEntityPath" : [ {
+              "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+              "entityType" : "ProductOfferingPrice"
+            }, {
+              "entityId" : "dd93f6953848741ed842d1ea24568060",
+              "entityType" : "Characteristic"
+            }, {
+              "entityId" : "bc67c10a20af34cd08d66e1ee656b849",
+              "entityType" : "CharacteristicSpecificationValue"
+            } ],
+            "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+            "targetType" : "ProductOfferingPriceSpecification",
+            "relationType" : "USE",
+            "targetEntityPath" : [ {
+              "entityId" : "dd93f6953848741ed842d1ea24568060",
+              "entityType" : "Characteristic"
+            }, {
+              "entityId" : "bc67c10a20af34cd08d66e1ee656b849",
+              "entityType" : "CharacteristicSpecificationValue"
+            } ]
+          }, {
+            "id" : "fa7e53b455bba41a3bf894b94a73a102",
+            "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+            "sourceType" : "ProductOffering",
+            "sourceEntityPath" : [ {
+              "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+              "entityType" : "ProductOfferingPrice"
+            }, {
+              "entityId" : "dd93f6953848741ed842d1ea24568060",
+              "entityType" : "Characteristic"
+            }, {
+              "entityId" : "bc67c10a20af34cd08d66e1ee656b849",
+              "entityType" : "CharacteristicSpecificationValue"
+            } ],
+            "targetId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+            "targetType" : "ProductOffering",
+            "relationType" : "COMPOSITION",
+            "targetEntityPath" : [ {
+              "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+              "entityType" : "ProductOfferingPrice"
+            }, {
+              "entityId" : "dd93f6953848741ed842d1ea24568060",
+              "entityType" : "Characteristic"
+            }, {
+              "entityId" : "b45e78b0a455140ba9d50937c8c5cc2a",
+              "entityType" : "Characteristic"
+            }, {
+              "entityId" : "b1d7bd1c28ae74bfbb6ccad2d1a22217",
+              "entityType" : "CharacteristicSpecificationValue"
+            } ]
+          }, {
+            "id" : "ceabd8ffadb2a45358068f85eebac551",
+            "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+            "sourceType" : "ProductOffering",
+            "sourceEntityPath" : [ {
+              "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+              "entityType" : "ProductOfferingPrice"
+            }, {
+              "entityId" : "dd93f6953848741ed842d1ea24568060",
+              "entityType" : "Characteristic"
+            }, {
+              "entityId" : "bc67c10a20af34cd08d66e1ee656b849",
+              "entityType" : "CharacteristicSpecificationValue"
+            } ],
+            "targetId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+            "targetType" : "ProductOffering",
+            "relationType" : "COMPOSITION",
+            "targetEntityPath" : [ {
+              "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+              "entityType" : "ProductOfferingPrice"
+            }, {
+              "entityId" : "dd93f6953848741ed842d1ea24568060",
+              "entityType" : "Characteristic"
+            }, {
+              "entityId" : "b45e78b0a455140ba9d50937c8c5cc2a",
+              "entityType" : "Characteristic"
+            }, {
+              "entityId" : "c54b8f2ff6afa453ab2840f3bcd61c91",
+              "entityType" : "CharacteristicSpecificationValue"
+            } ]
+          } ],
+          "discrete" : {
+            "boolean" : false
+          },
+          "humanReadableId" : null
+        } ],
+        "links" : [ {
+          "id" : "b60896c48eb3643c48e59d860adc449b",
+          "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+          "sourceType" : "ProductOffering",
+          "sourceEntityPath" : [ {
+            "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+            "entityType" : "ProductOfferingPrice"
+          }, {
+            "entityId" : "dd93f6953848741ed842d1ea24568060",
+            "entityType" : "Characteristic"
+          } ],
+          "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+          "targetType" : "ProductOfferingPriceSpecification",
+          "relationType" : "USE",
+          "targetEntityPath" : [ {
+            "entityId" : "dd93f6953848741ed842d1ea24568060",
+            "entityType" : "Characteristic"
+          } ]
+        } ],
+        "characteristics" : [ {
+          "description" : null,
+          "name" : {
+            "string" : "TAU condition"
+          },
+          "id" : "b45e78b0a455140ba9d50937c8c5cc2a",
+          "derivationFormula" : null,
+          "extensible" : {
+            "boolean" : false
+          },
+          "maxCardinality" : {
+            "int" : 1
+          },
+          "minCardinality" : {
+            "int" : 0
+          },
+          "unique" : null,
+          "valueType" : null,
+          "derivedValueType" : null,
+          "purpose" : null,
+          "valueRegulator" : null,
+          "canBeOverridden" : null,
+          "possibleValues" : [ {
+            "name" : {
+              "string" : "5 GB or above"
+            },
+            "description" : null,
+            "id" : "b1d7bd1c28ae74bfbb6ccad2d1a22217",
+            "default" : {
+              "boolean" : false
+            },
+            "rangeInterval" : null,
+            "unitOfMeasure" : null,
+            "value" : {
+              "string" : "rmref://rmca/PolicyValue/12dd36c1-567c-4b2c-8515-445578617ec4"
+            },
+            "valueFrom" : null,
+            "valueTo" : null,
+            "valueType" : null,
+            "valueLinks" : [ {
+              "id" : "cdf5e36381b4d4c3592b670759eee14a",
+              "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+              "sourceType" : "ProductOffering",
+              "sourceEntityPath" : [ {
+                "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                "entityType" : "ProductOfferingPrice"
+              }, {
+                "entityId" : "dd93f6953848741ed842d1ea24568060",
+                "entityType" : "Characteristic"
+              }, {
+                "entityId" : "b45e78b0a455140ba9d50937c8c5cc2a",
+                "entityType" : "Characteristic"
+              }, {
+                "entityId" : "b1d7bd1c28ae74bfbb6ccad2d1a22217",
+                "entityType" : "CharacteristicSpecificationValue"
+              } ],
+              "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+              "targetType" : "ProductOfferingPriceSpecification",
+              "relationType" : "USE",
+              "targetEntityPath" : [ {
+                "entityId" : "dd93f6953848741ed842d1ea24568060",
+                "entityType" : "Characteristic"
+              }, {
+                "entityId" : "b45e78b0a455140ba9d50937c8c5cc2a",
+                "entityType" : "Characteristic"
+              }, {
+                "entityId" : "cebbe9b9dc75d4d8b8e075b4b02df948",
+                "entityType" : "CharacteristicSpecificationValue"
+              } ]
+            } ],
+            "discrete" : null,
+            "humanReadableId" : null
+          }, {
+            "name" : {
+              "string" : "Below 5 GB"
+            },
+            "description" : null,
+            "id" : "c54b8f2ff6afa453ab2840f3bcd61c91",
+            "default" : {
+              "boolean" : false
+            },
+            "rangeInterval" : null,
+            "unitOfMeasure" : null,
+            "value" : {
+              "string" : "rmref://rmca/PolicyValue/5aa269a9-b010-4d84-acc3-2eee6b4a505a"
+            },
+            "valueFrom" : null,
+            "valueTo" : null,
+            "valueType" : null,
+            "valueLinks" : [ {
+              "id" : "e2b3724e8f5234cf28f266080fb43360",
+              "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+              "sourceType" : "ProductOffering",
+              "sourceEntityPath" : [ {
+                "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+                "entityType" : "ProductOfferingPrice"
+              }, {
+                "entityId" : "dd93f6953848741ed842d1ea24568060",
+                "entityType" : "Characteristic"
+              }, {
+                "entityId" : "b45e78b0a455140ba9d50937c8c5cc2a",
+                "entityType" : "Characteristic"
+              }, {
+                "entityId" : "c54b8f2ff6afa453ab2840f3bcd61c91",
+                "entityType" : "CharacteristicSpecificationValue"
+              } ],
+              "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+              "targetType" : "ProductOfferingPriceSpecification",
+              "relationType" : "USE",
+              "targetEntityPath" : [ {
+                "entityId" : "dd93f6953848741ed842d1ea24568060",
+                "entityType" : "Characteristic"
+              }, {
+                "entityId" : "b45e78b0a455140ba9d50937c8c5cc2a",
+                "entityType" : "Characteristic"
+              }, {
+                "entityId" : "cebbe9b9dc75d4d8b8e075b4b02df948",
+                "entityType" : "CharacteristicSpecificationValue"
+              } ]
+            } ],
+            "discrete" : null,
+            "humanReadableId" : null
+          } ],
+          "links" : [ {
+            "id" : "bdb26d037e277457bad3cc0397684e02",
+            "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+            "sourceType" : "ProductOffering",
+            "sourceEntityPath" : [ {
+              "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+              "entityType" : "ProductOfferingPrice"
+            }, {
+              "entityId" : "dd93f6953848741ed842d1ea24568060",
+              "entityType" : "Characteristic"
+            }, {
+              "entityId" : "b45e78b0a455140ba9d50937c8c5cc2a",
+              "entityType" : "Characteristic"
+            } ],
+            "targetId" : "4c4bd3a7-bae7-43ec-b3ba-504221f1beed",
+            "targetType" : "ProductOfferingPriceSpecification",
+            "relationType" : "USE",
+            "targetEntityPath" : [ {
+              "entityId" : "dd93f6953848741ed842d1ea24568060",
+              "entityType" : "Characteristic"
+            }, {
+              "entityId" : "b45e78b0a455140ba9d50937c8c5cc2a",
+              "entityType" : "Characteristic"
+            } ]
+          } ],
+          "characteristics" : [ ],
+          "annotations" : { },
+          "annotationList" : {
+            "array" : [ ]
+          },
+          "measure" : null,
+          "limitSpecValueRange" : null,
+          "humanReadableId" : null,
+          "sensitiveInfo" : null,
+          "isPersonalizedValueTransferable" : null
+        } ],
+        "annotations" : { },
+        "annotationList" : {
+          "array" : [ ]
+        },
+        "measure" : null,
+        "limitSpecValueRange" : null,
+        "humanReadableId" : null,
+        "sensitiveInfo" : null,
+        "isPersonalizedValueTransferable" : null
+      } ]
+    },
+    "humanReadableId" : null,
+    "relationsTo" : {
+      "array" : [ ]
+    }
+  } ],
+  "poPolicyRefs" : [ {
+    "id" : "a7813c6ad1b6347c78ea96de9e61a4c6",
+    "psPolicyRefRelation" : {
+      "id" : "b46c113556931436e9a1684566c5a328",
+      "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+      "sourceType" : "ProductOffering",
+      "sourceEntityPath" : [ {
+        "entityId" : "a7813c6ad1b6347c78ea96de9e61a4c6",
+        "entityType" : "POPolicyRef"
+      } ],
+      "targetId" : "18afe922-718f-4b6b-8eed-8544b71430b5",
+      "targetType" : "ProductSpecification",
+      "relationType" : "DESIGN",
+      "targetEntityPath" : [ {
+        "entityId" : "b39f12bbf85c583848ef21a92911df72",
+        "entityType" : "PSPolicyRef"
+      } ]
+    },
+    "productOfferingPriceRelations" : {
+      "array" : [ {
+        "id" : "d50f6d33556c84e7a9e635ead1ea93b6",
+        "sourceId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+        "sourceType" : "ProductOffering",
+        "sourceEntityPath" : [ {
+          "entityId" : "a7813c6ad1b6347c78ea96de9e61a4c6",
+          "entityType" : "POPolicyRef"
+        } ],
+        "targetId" : "a91a2315-7ed3-4677-a5eb-f89b97f3052a",
+        "targetType" : "ProductOffering",
+        "relationType" : "DESIGN",
+        "targetEntityPath" : [ {
+          "entityId" : "ecb14e65b6ec03a6a9630f2378b7d52a",
+          "entityType" : "ProductOfferingPrice"
+        } ]
+      } ]
+    },
+    "effectiveStrategy" : null
+  } ]
+}
+cli> 
